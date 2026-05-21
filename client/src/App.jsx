@@ -77,7 +77,7 @@ function App() {
       setLoading(true);
 
       const response = await axios.post(
-        "https://https://ai-devops-backend-i17e.onrender.com/api/logs/upload",
+        "https://ai-devops-backend-i17e.onrender.com/api/logs/upload",
         formData
       );
 
